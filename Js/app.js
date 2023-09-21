@@ -171,7 +171,7 @@ function CrearVarias() {
 const cancion = document.getElementById("cancion");
 
 // Reproduce la canción automáticamente al cargar la página
-window.addEventListener("load", () => {
+window.addEventListener("click", () => {
   cancion.style.display = "none"; // Muestra los controles de reproducción
   cancion.play();
 });

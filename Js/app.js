@@ -156,7 +156,7 @@ function CrearVarias() {
   // const espacioY = canvas.height / 3;
   const espacioX = canvas.width / 2;
   const espacioY = canvas.height / 4;
-  const TamañoFlor = 130;
+  const TamañoFlor = 0;
 
   for (let i = 0; i <= numFlores; i++) {
     const fila = Math.floor(i / 2);
